@@ -1,0 +1,16 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  padding-top: 50px;
+}
+
+.logo {
+    width:30px;
+}
