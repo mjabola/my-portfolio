@@ -1,14 +1,20 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Playfair Display', serif; */
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --body-font-family: "Roboto", sans-serif;
+  --brand-primary-color: #d8a790;
+  --brand-secondary-color: #764b36;
+  --secondary-background-color: #efe7dd;
+}
 
-body {
-  font-family: "Roboto", sans-serif;
+body,
+p {
+  font-family: var(--body-font-family);
   font-weight: 100;
 }
 
 h1,
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
 }
 
 .logo {
@@ -16,9 +22,9 @@ h2 {
 }
 
 .home-header {
-  background-color: #efe7dd;
+  background-color: var(--secondary-background-color);
   text-align: center;
-  padding: 80px;
+  padding: 120px;
 }
 
 .home-header h1 {
@@ -32,6 +38,8 @@ h2 {
   font-weight: 400;
 }
 
-.btn-main {
-  background-color: #764b36;
+.btn-branding {
+  background: var(--brand-primary-color);
+  color: var(--brand-secondary-color);
+  border-radius: 4px;
 }
