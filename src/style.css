@@ -38,8 +38,9 @@ h2 {
   font-weight: 400;
 }
 
-.btn-branding {
+div .btn-branding {
   background: var(--brand-primary-color);
   color: var(--brand-secondary-color);
   border-radius: 4px;
+  margin: 20px;
 }
