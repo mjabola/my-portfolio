@@ -38,6 +38,14 @@ h2 {
   font-weight: 400;
 }
 
+.main-body {
+  padding-top: 100px;
+}
+
+.content-body {
+  background-color: var(--secondary-background-color);
+  padding: 50px;
+}
 div .btn-branding {
   background: var(--brand-primary-color);
   color: var(--brand-secondary-color);
