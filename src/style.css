@@ -71,11 +71,7 @@ h3 {
   background-color: var(--secondary-background-color);
 }
 
-.content-body h2 {
-  font-size: 30px;
-  color: var(--brand-secondary-color);
-  text-transform: lowercase;
-}
+
 
 .about-photo {
   max-height: 500px;
