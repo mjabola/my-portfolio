@@ -33,7 +33,8 @@ p {
 }
 
 h1,
-h2, h3 {
+h2,
+h3 {
   font-family: var(--heading-font-family);
 }
 
@@ -68,6 +69,16 @@ h3 {
 
 .content-body {
   background-color: var(--secondary-background-color);
+}
+
+.content-body h2 {
+  font-size: 30px;
+  color: var(--brand-secondary-color);
+  text-transform: lowercase;
+}
+
+.about-photo {
+  max-height: 500px;
 }
 
 div .btn-branding {
