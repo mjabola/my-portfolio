@@ -90,10 +90,6 @@ h3 {
   padding-top: 80px;
 }
 
-.content-body {
-  background-color: var(--secondary-background-color);
-}
-
 .about-photo {
   max-height: 500px;
 }
@@ -103,4 +99,19 @@ div .btn-branding {
   color: var(--brand-secondary-color);
   border-radius: 4px;
   margin: 10px;
+}
+
+div .content-body {
+  background-color: var(--secondary-background-color);
+  padding: 50px;
+}
+
+p a {
+  color: var(--brand-secondary-color);
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #000;
+  text-decoration: none;
 }
