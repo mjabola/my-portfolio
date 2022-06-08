@@ -7,9 +7,6 @@
 }
 
 @media (max-width: 576px) {
-  .preview-img {
-    display: none;
-  }
 
   .home-header h1 {
     font-size: 30px;
@@ -17,6 +14,15 @@
 
   .home-header h2 {
     font-size: 10px;
+  }
+
+  .main-body h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .description {
+    display: none;
   }
 
   div .btn-branding {
@@ -34,12 +40,16 @@ p {
 
 h1,
 h2,
-h3 {
+h3, h4 {
   font-family: var(--heading-font-family);
 }
 
-h3 {
+h3{
   text-transform: lowercase;
+}
+
+.main-body h4 {
+  font-weight: 700;
 }
 
 .logo {
@@ -64,14 +74,12 @@ h3 {
 }
 
 .main-body {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .content-body {
   background-color: var(--secondary-background-color);
 }
-
-
 
 .about-photo {
   max-height: 500px;
